@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h4>Header</h4>
+        
+        <div class="left_header">
+            <a onclick="signUp()">Sign Up</a>
+            <a href="./home.html">profile</a>
+        </div>
+    </header>
+    
+    <main>
+       <div class="outer_container">
+        
+        <div class="profile_inner">
+            <div class="alert" id="green"></div>
+            <div class="profile">
+                <h3>Profile</h3>
+                <h4>Full Name :<span id="fullname"></span></h4>
+                <h4>Email :<span id="emailUser"</span></h4>
+                <h4>Password :<span id="password"></span></h4>
+            </div>
+            <div>
+                <button onclick="logout()">Log out</button>
+            </div>
+        </div>
+       </div>
+    </main>
+    <script src="./home.js"></script>
+  
+</body>
+</html>
